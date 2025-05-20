@@ -1,0 +1,12 @@
+@mixin spacing($left, $right) {
+  margin-left: $left;
+  margin-right: $right;
+}
+
+body {
+  @include spacing(10px, 10px);
+}
+
+div {
+  @include spacing(15px, 15px);
+}
