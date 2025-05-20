@@ -1,0 +1,19 @@
+# Installation of SASS can be seen at the official SASS website
+
+### Installation via CLI
+- Make sure you have node js already installed.
+
+      npm install -g sass
+
+
+The above downloads the package using node package manager and installs it globally so it can be used directly from the command line. 
+
+If newer versions exist, further instructions will be given to update to the latest version 
+with an additional command. Example
+      
+      npm install sass -v 3.7.4
+
+Check if installations has been done correct using:
+      
+      sass --version
+
